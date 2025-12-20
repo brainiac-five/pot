@@ -1,4 +1,4 @@
-[![Tests](https://github.com/ethersphere/proximity-order-trie/actions/workflows/tests.yml/badge.svg)](https://github.com/ethersphere/proximity-order-trie/actions/workflows/tests.yml)
+[![Tests](https://github.com/brainiac-five/pot/actions/workflows/tests.yml/badge.svg)](https://github.com/brainiac-five/pot/actions/workflows/tests.yml)
 
 # Proximity Order Trie (POT)
 
@@ -163,7 +163,7 @@ The POT implementation includes a proof generation and verification system that 
 Example of generating and verifying a proof:
 
 ```go
-import "github.com/ethersphere/proximity-order-trie/pkg/proof"
+import "github.com/brainiac-five/pot/pkg/proof"
 
 rootNode := index.GetRootNode()
 ls := persister.NewInmemLoadSaver()

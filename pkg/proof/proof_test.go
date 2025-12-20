@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	pot "github.com/ethersphere/proximity-order-trie"
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
-	"github.com/ethersphere/proximity-order-trie/pkg/proof"
+	pot "github.com/brainiac-five/pot"
+	"github.com/brainiac-five/pot/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/proof"
 )
 
 func TestCreateEntryProof(t *testing.T) {

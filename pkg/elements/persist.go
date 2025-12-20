@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/persister"
 )
 
 var _ Node = (*SwarmNode)(nil)

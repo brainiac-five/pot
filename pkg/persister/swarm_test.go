@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/persister"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/elements"
 )
 
 // Entry implements pot Entry

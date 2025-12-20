@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/ethersphere/bee/v2/pkg/bmt"
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/elements"
 	"golang.org/x/crypto/sha3"
 )
 

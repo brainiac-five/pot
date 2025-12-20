@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/persister"
 )
 
 // ForkPathProof represents a path of proofs from a root node to a target node

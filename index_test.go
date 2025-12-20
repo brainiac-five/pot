@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	pot "github.com/ethersphere/proximity-order-trie"
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	pot "github.com/brainiac-five/pot"
+	"github.com/brainiac-five/pot/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/persister"
 	"golang.org/x/sync/errgroup"
 )
 

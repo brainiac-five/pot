@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"testing"
 
-	pot "github.com/ethersphere/proximity-order-trie"
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	pot "github.com/brainiac-five/pot"
+	"github.com/brainiac-five/pot/pkg/persister"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -110,9 +110,7 @@ func TestPotKvs_Save(t *testing.T) {
 		assert.Equal(t, val1, val)
 	})
 	t.Run("Save KVS with two items, after-load values exist", func(t *testing.T) {
-
 		ls := createLs()
-
 		kvs1, _ := pot.NewSwarmKvs(ls)
 
 		err := kvs1.Put(ctx, key1, val1)

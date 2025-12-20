@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/elements"
 )
 
 // Index represents a mutable pot

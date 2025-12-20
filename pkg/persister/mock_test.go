@@ -7,7 +7,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/persister"
 )
 
 type Loader interface {

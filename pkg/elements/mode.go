@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/persister"
 )
 
 type Mode interface {

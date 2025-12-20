@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/proximity-order-trie/pkg/elements"
-	"github.com/ethersphere/proximity-order-trie/pkg/persister"
+	"github.com/brainiac-five/pot/pkg/elements"
+	"github.com/brainiac-five/pot/pkg/persister"
 )
 
 var _ KeyValueStore = (*SwarmKvs)(nil)
